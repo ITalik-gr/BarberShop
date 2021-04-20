@@ -1,0 +1,702 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+
+    <link rel="manifest" href="js/manifest.json">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>Barbershop</title>
+</head>
+<body>
+    <div id="adaptive-menu">
+        <ul>
+            <a href="#" id="close-link">×</a>
+            <li><button id="adaptive-number-button" class="black-button blur">+7 (923) 104 3505</button></li>
+            <li><div class="social">
+                <img src="images/facebook.png" alt="facebook">
+                <img src="images/vk.png" alt="vk">
+                <img src="images/instagram.png" alt="instagram"></div>
+            </li>
+            <li><a href="#adventages">О нас</a></li>
+            <li><a href="#">Наш блог</a></li>
+            <li><a href="#news">Наши новости</a></li>
+            <li><a href="#reviews">Отзывы</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Где мой заказ?</a></li>
+            <li><input placeholder="Поиск товаров" type="text"></li>
+            <li><button id="search-adaptive" class="black-button"><img src="images/search.png" alt="search"></button></li>
+        </ul>
+    </div>
+
+    <div id="close-cataloge">&nbsp;</div>
+    <header class="container">
+        <div class="row">
+
+            <div id="phone-col" class="col-2 hide-in-720px">
+                <button class="black-button hide-in-992px blur">+7 (923) 104 3505</button>
+            </div>
+            <div id="social-col" class="col-3 hide-in-720px">
+
+                <img class="hide-in-992px" src="images/facebook.png" alt="facebook">
+                <img class="hide-in-992px" src="images/vk.png" alt="vk">
+                <img class="hide-in-992px" src="images/instagram.png" alt="instagram">
+
+            </div>
+            <div id="logo-col" class="col-12 col-md-2">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <div id="search-col" class="col-5 hide-in-720px">
+                <input class="hide-in-992px" placeholder="Поиск товаров" type="text">
+                <button class="black-button hide-in-992px"><img src="images/search.png" alt="search"></button>
+            </div>
+
+        </div>
+
+        <hr>
+        
+        <nav id="menu-nav">
+            <ul id="menu-ul">
+                <li>
+                    <a id="open-cataloge" href="#"><img class="hide-in-1140px" src="images/header-menu.png" alt="menu">Каталог</a>
+                    <ul id="cataloge" class="container">
+                        <li><a href="#">Новинки 2020</a></div>
+                        <li><a href="#">Гели для бритья</a></div>
+                        <li><a href="#">После бритья</a></div>
+                        <li><a href="#">Уход за волосами и бородой</a></div>
+                        <li><a href="#">Укладочные средства</a></div>
+                        <li><a href="#">Шампуни и Кондиционеры</a></div>
+                        <li><a href="#">Уход за кожей</a></div>
+                        <li><a href="#">Гели для душа</a></div>
+                        <li><a href="#">Всё для депиляции лица</a></div>
+                        <li><a href="#">Аксессуары</a></div>
+                        
+                    </ul>
+                </li>
+                <li><a class="hide-in-1140px" href="#adventages">О нас</a></li>
+                <li><a class="hide-in-1140px" href="#">Наш блог</a></li>
+                <li><a class="hide-in-1140px" href="#news">Наши новости</a></li>
+                <li><a class="hide-in-1140px" href="#reviews">Отзывы</a></li>
+                <li><a class="hide-in-1140px" href="">Контакты</a></li>
+                <li><a class="hide-in-1140px" href="">Где мой заказ?</a></li>
+                
+            </ul>
+            <ul id="login-ul">
+                <li><button class="black-button hide-in-1140px" >Войти</button></li>
+                <li><a href="#" class="hide-in-1140px" id="registration">Регистрация</a></li>
+                <li><a id="menu-mobile-link" href="#">Меню</a></li>
+            </ul>
+        </nav>
+        
+    </header> <!-- Header End -->
+
+    <div class="container" id="top-section">
+        <div class="row">
+            <div class="col-12 col-lg-8">
+                <h2>Официальный представитель бренда<br>ELEGANCE и ELEGANCE PLUS в России</h2>
+                <h5>Самая экономически выгодная косметика на рынке
+                <br>для професионалов</h5>
+                <button class="black-button blur">Связаться с нами</button>
+            </div>
+            <div class="col-2 col-lg-4 hide-in-992px">
+                <img src="images/product1.png" alt="product">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="main">
+    
+
+        <!-- Adventages -->
+        <div class="container" id="adventages">
+            <div class="row">
+
+                <div class="col-12 col-md-6 col-xl-4 adventage-col">
+                    <img src="images/delivery-box.png" alt="delivery-box">
+                    <span>
+                        <h5>Бесплатная доставка</h5>
+                        <p>При заказе от 4 000 тыс. 
+                        <br>рублей</p>
+                    </span>
+                </div> 
+                
+                <div class="col-12 col-md-6 col-xl-4 adventage-col">
+                    <img src="images/24-hours.png" alt="delivery-box">
+                    <span>
+                        <h5>Бесплатная доставка</h5>
+                        <p>При заказе от 4 000 тыс. 
+                        <br>рублей</p>
+                    </span>
+                </div>  
+
+                <div class="col-12 col-md-6 col-xl-4 adventage-col">
+                    <img src="images/bestseller.png" alt="delivery-box">
+                    <span>
+                        <h5>Бесплатная доставка</h5>
+                        <p>При заказе от 4 000 тыс. 
+                        <br>рублей</p>
+                    </span>
+                </div>  
+
+            </div>
+        </div>
+
+
+        <!-- Products -->
+        <div class="container" id="products">
+
+            <div class="scrolling-item" id="delivey">
+                <img src="images/freeDelivery.png" alt="Бесплатная доставка от 5000 рублей">
+            </div>
+
+            <div class="scrolling-item" id="scrool-item1">
+                <img src="images/scrolling1.png" alt="Бесплатная доставка от 5000 рублей">
+            </div>
+
+            <div class="scrolling-item" id="scrool-item2">
+                <img src="images/scrolling2.png" alt="Бесплатная доставка от 5000 рублей">
+            </div>
+
+            <div class="scrolling-item" id="scrool-item3">
+                <img src="images/scrolling3.png" alt="Бесплатная доставка от 5000 рублей">
+            </div>
+
+
+
+            <div id="large-products" class="hide-in-992px">
+
+                <div class="product producttype-textbottom">
+                    <div><img src="images/logo.png" alt="product"></div>
+                    <div class="product-text-block"><p>Новинки</p></div>
+                </div>
+
+                <div class="product producttype-textcenter">
+                    <div><img src="images/Products/product2-cropped.png" alt="product"></div>
+                    <div class="product-text-block"><p>Гели для бритья</p></div>
+                </div>
+
+                <div class="product producttype-textcenter">
+                    <div><img src="images/Products/product3-cropped.png" alt="product"></div>
+                    <div class="product-text-block"><p>После бритья</p></div>
+                </div>
+
+                <div class="product producttype-textcenter">
+                    <div><img src="images/Products/product4-cropped.png" alt="product"></div>
+                    <div class="product-text-block"><p>Уход за волосами и бородой</p></div>
+                </div>
+
+                <div class="product producttype-textbottom">
+                    <div><img src="images/Products/product5-cropped.png" alt="product"></div>
+                    <div class="product-text-block"><p>Укладочные средства</p></div>
+                </div>
+
+            </div>
+
+            <div id="large-products-adaptive" class="row">
+
+                    <div class="col-6 col-md-4"><div class="product producttype-textbottom">
+                        <div><img src="images/logo.png" alt="product"></div>
+                        <div class="product-text-block"><p>Новинки</p></div>
+                    </div></div>
+    
+                    <div class="col-6 col-md-4"><div class="product producttype-textcenter">
+                        <div><img src="images/Products/product2-cropped.png" alt="product"></div>
+                        <div class="product-text-block"><p>Гели для бритья</p></div>
+                    </div></div>
+    
+                    <div class="col-6 col-md-4"><div class="product producttype-textcenter">
+                        <div><img src="images/Products/product3-cropped.png" alt="product"></div>
+                        <div class="product-text-block"><p>После бритья</p></div>
+                    </div></div>
+
+                    <div class="col-6 col-md-4"><div class="product producttype-textcenter">
+                        <div><img src="images/Products/product4-cropped.png" alt="product"></div>
+                        <div class="product-text-block"><p>Уход за волосами и бородой</p></div>
+                    </div></div>
+    
+                    <div class="col-6 col-md-4"><div class="product producttype-textbottom">
+                        <div><img src="images/Products/product5-cropped.png" alt="product"></div>
+                        <div class="product-text-block"><p>Укладочные средства</p></div>
+                    </div></div>
+
+                
+
+            </div>
+
+            <div id="small-products">
+
+                <div class="product">
+                    <a href="#">Шампуни и Кондиционеры</a>
+                </div>
+
+                <div class="product">
+                    <a href="#">Уход за кожей</a>
+                </div>
+
+                <div class="product">
+                    <a href="#">Гели для душа</a>
+                </div>
+
+                <div class="product">
+                    <a href="#">Всё для <br> депиляции лица</a>
+                </div>
+
+                <div class="product">
+                    <a href="#">Аксессуары</a>
+                </div>
+
+            </div>
+
+        </div> <!-- Products end -->
+
+
+        <!-- Recomended -->
+        <div class="container" id="recomended">
+            <h2>Рекомендуемые товары</h2>
+
+            <!-- Slider -->
+            <div class="row">
+                <div class="col-1">&nbsp;</div> <!-- empty -->
+                <div class="col-10">
+                    <!-- Slider -->
+                    <div id="recomended-slider">
+                        <div id="slides">
+                            <div id="rec1" class="slide">
+                                <div class="product-image">
+                                    <div><img src="images/Recomended/recomended1.png" alt="recomended"></div>
+                                </div>
+                                <div class="product-description">
+                                    Гель для бритья Elegance Plus "Earth" 2 литра
+                                </div>
+                                <a href="#" class="product-button">RUB 2 550</a>
+                            </div>
+
+                            <div id="rec2" class="slide">
+                                <div class="product-image">
+                                    <div><img src="images/Recomended/recomended2.png" alt="recomended"></div>
+                                </div>
+                                <div class="product-description">
+                                    Гель для бритья “ Elegance plus” Jupiter 1000 мл
+                                </div>
+                                <a href="#" class="product-button">RUB 1 450</a>
+                            </div>
+
+                            <div id="rec3" class="slide">
+                                <div class="product-image">
+                                    <div><img src="images/Recomended/recomended3.png" alt="recomended"></div>
+                                </div>
+                                <div class="product-description">
+                                    Гель для волос  “Elegance” HARD 100 мл
+                                </div>
+                                <a href="#" class="product-button">RUB 500</a>
+                            </div>
+
+                            <div id="rec4" class="slide">
+                                <div class="product-image">
+                                    <div><img src="images/Recomended/recomended4.png" alt="recomended"></div>
+                                </div>
+                                <div class="product-description">
+                                    Гель для бритья Elegance Plus "Venus" 500 мл
+                                </div>
+                                <a href="#" class="product-button">RUB 900</a>
+                            </div>
+
+                            <div id="rec5" class="slide">
+                                <div class="product-image">
+                                    <div><img src="images/Recomended/recomended5.png" alt="recomended"></div>
+                                </div>
+                                <div class="product-description">
+                                    Черная маска для лица “Elegance” 120 мл
+                                </div>
+                                <a href="#" class="product-button">RUB 800</a>
+                            </div>
+
+                            <div id="rec6" class="slide">
+                                <div class="product-image">
+                                    <div><img src="images/Recomended/recomended3.png" alt="recomended"></div>
+                                </div>
+                                <div class="product-description">
+                                    Гель для волос  “Elegance” HARD 100 мл
+                                </div>
+                                <a href="#" class="product-button">RUB 500</a>
+                            </div>
+
+                            <div id="rec7" class="slide">
+                                <div class="product-image">
+                                    <div><img src="images/Recomended/recomended4.png" alt="recomended"></div>
+                                </div>
+                                <div class="product-description">
+                                    Гель для бритья Elegance Plus "Venus" 500 мл
+                                </div>
+                                <a href="#" class="product-button">RUB 900</a>
+                            </div>
+
+                            <div id="rec8" class="slide">
+                                <div class="product-image">
+                                    <div><img src="images/Recomended/recomended5.png" alt="recomended"></div>
+                                </div>
+                                <div class="product-description">
+                                    Черная маска для лица “Elegance” 120 мл
+                                </div>
+                                <a href="#" class="product-button">RUB 800</a>
+                            </div>
+
+                            <div id="rec9" class="slide">
+                                <div class="product-image">
+                                    <div><img src="images/Recomended/recomended5.png" alt="recomended"></div>
+                                </div>
+                                <div class="product-description">
+                                    Черная маска для лица “Elegance” 120 мл
+                                </div>
+                                <a href="#" class="product-button">RUB 800</a>
+                            </div>
+
+                            <div id="rec10" class="slide">
+                                <div class="product-image">
+                                    <div><img src="images/Recomended/recomended5.png" alt="recomended"></div>
+                                </div>
+                                <div class="product-description">
+                                    Last Черная маска для лица “Elegance” 120 мл
+                                </div>
+                                <a href="#" class="product-button">RUB 800</a>
+                            </div>
+
+                            <div id="rec11" class="slide">
+                                <div class="product-image">
+                                    <div><img src="images/Recomended/recomended2.png" alt="recomended"></div>
+                                </div>
+                                <div class="product-description">
+                                    Гель для бритья “ Elegance plus” Jupiter 1000 мл
+                                </div>
+                                <a href="#" class="product-button">RUB 1 450</a>
+                            </div>
+
+                            <div id="rec12" class="slide">
+                                <div class="product-image">
+                                    <div><img src="images/Recomended/recomended2.png" alt="recomended"></div>
+                                </div>
+                                <div class="product-description">
+                                    Гель для бритья “ Elegance plus” Jupiter 1000 мл
+                                </div>
+                                <a href="#" class="product-button">RUB 1 450</a>
+                            </div>
+
+                        </div>
+                        
+
+                    </div>
+                </div>
+                <div class="col-1">&nbsp;</div> <!-- empty -->
+            </div>
+            <!-- Slider end -->
+
+            <!-- Pagination -->
+            <div id="recomended-pagination">
+                <!-- Генерируется в script.js в зависимости от количества слайдов -->
+            </div> <!-- Pagination end -->
+
+        </div> <!-- Recomended end -->
+
+
+        <!-- About us -->
+        <div class="container-fluid">
+            <div class="hide-in-1140px" id="about-image-left"><img src="images/about-left.png" alt="about"></div>
+            <div class="hide-in-1140px" id="about-image-right"><img src="images/about-right.png" alt="about"></div>
+        </div>
+        <div class="container" id="about">
+            <h2>О нас и нашей продукции</h2>
+            <h5>Самая экономически выгодная косметика на рынке<br>для професионалов</h5>
+            <div id="about-text"><p>&nbsp;&nbsp;&nbsp;ТОО "Интеркосметикс СЮ" является официальным Дилером компании 
+                SADAPACK cosmetics на территории Республики Казахстан, основана в 2016 году.
+                Качество нашей продукции позволяет сокращать расходы на закуп профессиональной 
+                косметики для работы в Барбершопе в 3 раз. Гели для бритья и Лосьоны после бритья 
+                торговой марки "Elegance" и "Elegance Plus" не имеют конкурентов, благодаря 
+                запатентованной рецептуре, которая держится в секрете. 
+                <br><br>
+                &nbsp;&nbsp;&nbsp;Компания реализует профессиональную продукцию для барбершопов и мужских 
+                салонов. Так же в портфеле компании есть ряд продуктов, нацеленных для личного 
+                использования в домашних условиях.
+                <br><br>
+                &nbsp;&nbsp;&nbsp;Данная продукция абсолютно безопасна для Покупателей, так же соответствует
+                высоким стандартам качества и технологии производства.
+                В целях соответствия международным стандартам завод "SADAPACK cosmetics" 
+                использует только оригинальные высококачественные компоненты.</p>
+            </div>
+        </div> <!-- About us end -->
+
+
+        <!-- News -->
+        <div class="container" id="news">
+
+            <div class="scrolling-item" id="scrool-item4">
+                <img src="images/scrolling4.png" alt="Бесплатная доставка от 5000 рублей">
+            </div>
+
+            <h2>Наши новости</h2>
+
+            <div class="row">
+                <div class="col-1">&nbsp;</div> <!-- empty -->
+                <div class="col-10">
+                    <!-- Slider -->
+                    <div id="news-slider">
+                        <div id="news-slides">
+                            <div id="news1" class="slide">
+                                <div class="product-image">
+                                    <div><img src="images/News/news1.png" alt="recomended"></div>
+                                </div>
+                                <div class="product-description">
+                                    Новинки Elegance plus
+                                </div>
+                                <a href="#" class="product-button">Читать</a>
+                            </div>
+
+                            <div id="news2" class="slide">
+                                <div class="product-image">
+                                    <div><img src="images/News/news2.png" alt="recomended"></div>
+                                </div>
+                                <div class="product-description">
+                                    Анонс мастер класса
+                                </div>
+                                <a href="#" class="product-button">Читать</a>
+                            </div>
+
+                            <div id="news3" class="slide">
+                                <div class="product-image">
+                                    <div><img src="images/News/news3.png" alt="recomended"></div>
+                                </div>
+                                <div class="product-description">
+                                    Проведение семинаров
+                                </div>
+                                <a href="#" class="product-button">Читать</a>
+                            </div>
+
+                            <div id="news4" class="slide">
+                                <div class="product-image">
+                                    <div><img src="images/News/news4.png" alt="recomended"></div>
+                                </div>
+                                <div class="product-description">
+                                    Мероприятия ELEGANCE PLUS
+                                </div>
+                                <a href="#" class="product-button">Читать</a>
+                            </div>
+
+                            <div id="news5" class="slide">
+                                <div class="product-image">
+                                    <div><img src="images/News/news1.png" alt="recomended"></div>
+                                </div>
+                                <div class="product-description">
+                                    Новинки Elegance plus
+                                </div>
+                                <a href="#" class="product-button">Читать</a>
+                            </div>
+
+                            <div id="news6" class="slide">
+                                <div class="product-image">
+                                    <div><img src="images/News/news2.png" alt="recomended"></div>
+                                </div>
+                                <div class="product-description">
+                                    Анонс мастер класса
+                                </div>
+                                <a href="#" class="product-button">Читать</a>
+                            </div>
+
+                            <div id="news7" class="slide">
+                                <div class="product-image">
+                                    <div><img src="images/News/news3.png" alt="recomended"></div>
+                                </div>
+                                <div class="product-description">
+                                    Проведение семинаров
+                                </div>
+                                <a href="#" class="product-button">Читать</a>
+                            </div>
+
+                            <div id="news8" class="slide">
+                                <div class="product-image">
+                                    <div><img src="images/News/news4.png" alt="recomended"></div>
+                                </div>
+                                <div class="product-description">
+                                    Мероприятия ELEGANCE PLUS
+                                </div>
+                                <a href="#" class="product-button">Читать</a>
+                            </div>
+
+                        </div>
+                        
+
+                    </div>
+                </div>
+                <div class="col-1">&nbsp;</div> <!-- empty -->
+            </div>
+            <!-- Slider end -->
+
+            <!-- Pagination -->
+            <div id="news-pagination">
+                <!-- Генерируется в script.js в зависимости от количества слайдов -->
+            </div> <!-- Pagination end -->
+        </div> <!-- News end -->
+
+        <!-- Reviews -->
+        <div class="container" id="reviews">
+            <h2>Наши отзывы</h2>
+            
+
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="review">Приобрела шампуть 
+                    серии экстра с кератином. 
+                    После первого примене-
+                    ния волосы уже стали 
+                    мягче и легче расчесы -
+                    ваться. Всем рекомендую!</div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="review">Благодаря шампуню 
+                    мои волосы 
+                   стали более гладкие, 
+                   шелковистее и приятнее 
+                   на ощуп. Всем советую, 
+                   Вы будете в восторге.</div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="review">Приобрела для своего 
+                    мужа шампуть 
+                    ELEGANC PLUS Mircle
+                    с кератиновым эффектом.
+                    Результат с первого 
+                    применения. 
+                    Муж в восторге!</div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="review">Профессиональный и 
+                    сильный уход для ваших 
+                    волос. Шампунь и 
+                    кондиционер помогают 
+                    от ламкости волос. 
+                    Я выбираю 
+                    ELEGANC PLUS.</div>
+                </div>
+            </div>
+
+            
+        </div> <!-- Reviews end -->
+
+
+        <!-- Blog -->
+        <div class="container" id="blog">
+            <h2>Блог</h2>
+
+            <div class="row">
+
+                <div class="col-12 col-md-4">
+                    <div class="post text-position-right">
+                        <div class="blog-container">
+                            <div class="blog-title-block"><p class="blog-title">Подсказка для барбера!</p></div>
+                            <a href="#" class="black-button">Подробнее</a>
+                        </div>
+                        <br>
+                        
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="post text-position-right">
+                        <div class="blog-container">
+                            <div class="blog-title-block"><p class="blog-title">Красивые волосы - Здоровые волосы</p></div>
+                            <a href="#" class="black-button">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="post text-position-left">
+                        <div class="blog-container">
+                            <div class="blog-title-block"><p class="blog-title">Наши гели для бритья проверенные тысячами</p></div>
+                            <a href="#" class="black-button">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div> <!-- Blog end -->
+
+    </div><!-- Main end -->
+
+    <div class="hide-in-992px" id="review-image">
+        <img src="images/reviews-image.png" alt="">
+    </div>
+    <footer class="container-fluid">
+        <div class="container">
+
+            <div class="row">
+
+                <div id="footer-phone-col" class="col-lg-2 col-12">
+                    <button class="black-button">+7 (923) 104 3505</button>
+                </div>
+                <div id="footer-social-col" class="col-lg-4 col-12">
+                    <div id="subscribe-to-us">Подпишитесь на нас:</div>
+                    <img src="images/facebook.png" alt="facebook">
+                    <img src="images/vk.png" alt="vk">
+                    <img src="images/instagram.png" alt="instagram">
+    
+                </div>
+                <div class="col-1">&nbsp;</div> <!-- Empty -->
+                <div id="footer-search-col" class="col-lg-5 col-12">
+                    <input placeholder="Поиск товаров" type="text">
+                    <button class="black-button"><img src="images/search.png" alt="search"></button>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div id="footer-menu">
+                <div class="section-1">
+                    <a href="#">Условия доставки и оплаты</a>
+                    <a href="#">Условия возврата товара</a>
+                    <a href="#">Согласие на обработку персональных данных</a>
+                </div>
+                <div class="section-2">
+                    <a href="#">© Интернет-магазин от официального дистрибьютора косметики Elegance plus в России</a>
+                    <a href="#">Сообщить о нарушении</a>
+                </div>
+            </div>  
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+
+    <!-- Custom Scripts -->
+    <script src="scripts/script.js"></script>
+</body>
+</html>
+
